@@ -1,0 +1,38 @@
+{"intents":[
+	{"tag":"tervehdys",
+		"patterns":["Terve","Moro","Hyvää päivää","Päivää", "Hei", "Morjesta"],
+		"responses":["Hei, miten voin auttaa?","Hei vaan! Kuinka voin auttaa?","Moi, tarvitsetko apua koulujutuissa"]
+	},
+	{"tag":"jatkumoa",
+		"patterns":["Tarvitsen apua kouluhommissa","Koulujutuissa","helppiä", "apua"],
+		"responses":["Mihin liittyen koulujutuissa tarvitset apua?"]		
+	},
+	{"tag":"hyvästi",
+		"patterns":["Moikka", "Kiitos avusta, minä lähden"],
+		"responses":["Kiitos ja hei","Toivottavasti sait tarvitsemasi vastauksen, nähdään!", "Nähdään","Kiitos näkemiin"]		
+	},
+    {"tag":"kurssit",
+        "patterns":["ilmoittautua", "Miten voin osallistua kursseille", "osallistua", "kurssille", "kursseille"],
+        "responses":["Voit ilmoittautua kursseille pepistä","https://opiskelija-amk.peppi.lapit.csc.fi/group/opiskelijan-tyopoyta/opintoni , voit osallistua tuolla sivulla kursseille"]
+    },
+	{"tag":"edistys",
+        "patterns":["Miten opintoni ovat edenneet?","aikataulu", "edistys", "edennyt", "opinnot"],
+        "responses":["Opintosi ovat hieman jäljessä aikataulusta","Opintosi ovat aikataulussa ja edenneet hyvin"]
+    },
+	{"tag":"työharjoittelu",
+		"patterns":["Milloin työharjoittelu on","Milloin työharjoittelu pitää suorittaa","Kuinka kauan työharjoittelu kestää", "työharjoittelun", "ajankohta"],
+		"responses":["Työharjoittelu on merkattu teille keväälle mutta ei ole tarkkaa aikaa!","Työharjoittelu kestää noin 5kk ja sille ei ole tarkkaa aikaa milloin se pitää suorittaa"]		
+	},
+	{"tag":"apujatkumo",
+        "patterns":["kurssi", "koulukurssi", "ilmoittautua", "Miten voin osallistua kursseille", "osallistua", "kurssille", "kursseille"],
+        "responses":["Voit ilmoittautua kursseille pepistä","https://opiskelija-amk.peppi.lapit.csc.fi/group/opiskelijan-tyopoyta/opintoni , voit osallistua tuolla sivulla kursseille"]
+    },
+	{"tag":"kurssivalinta",
+        "patterns":["Mikä kurssi olisi hyvä käydä seuraavaksi", "Mikä olisi seuraava kurssi"],
+        "responses":["Voisit käydä seuraavaksi vaikka Python-ohjelmointi kurssin tai Reactin kurssin.", "Peliohjelmointi voisi kiinnostaa sinua"]
+    },
+	{"tag":"bottinimi",
+		"patterns":["Mikä sinun nimesi on"],
+		"responses":["Nimeni on Opo-botti"]
+	}
+]}
