@@ -1,3 +1,3 @@
-# Lopputehtava Chatbot
+# Lopputehtävä Chatbot
 
 koulutehtävä Tekoäly ja BOT kurssilta
